@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo img {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search-cart {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+search-cart input {
+    padding: 5px;
+}
+
+.search-cart a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+
+.cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.hero {
+    background-image: url('hero-bg.jpg'); /* Inserisci il percorso dell'immagine di sfondo */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+    color: #fff;
+}
+
+.hero .btn {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.categories, .featured-products, .special-offers, .testimonials {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.category-grid, .offers-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.category-item, .offer-item, .product-item {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+.testimonials-slider {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 20px;
+}
+
+.testimonial-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    min-width: 300px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 20px;
+    display: flex;
+    flex
